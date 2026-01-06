@@ -4,115 +4,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Redbubble Auto Uploader</title>
+    <title>Privacy Policy - Pinterest Bulk Extractor</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
             line-height: 1.6;
             color: #333;
-            background: #f5f5f5;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
         }
 
         .container {
+            max-width: 800px;
+            margin: 0 auto;
             background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
             padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
-        h1 {
-            color: #7c3aed;
-            border-bottom: 3px solid #7c3aed;
-            padding-bottom: 10px;
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #eee;
+        }
+
+        .header .icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .header h1 {
+            color: #E60023;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            color: #666;
+            font-size: 18px;
+        }
+
+        .tldr {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+
+        .tldr strong {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 8px;
         }
 
         h2 {
-            color: #6d28d9;
-            margin-top: 30px;
+            color: #E60023;
+            font-size: 20px;
+            margin: 30px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #E60023;
         }
 
-        .highlight {
-            background: #f3f4f6;
-            padding: 15px;
-            border-left: 4px solid #7c3aed;
-            margin: 20px 0;
+        p,
+        li {
+            color: #555;
+            margin-bottom: 12px;
         }
 
-        .last-updated {
-            color: #666;
-            font-size: 0.9em;
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .permission-list {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+
+        .permission-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 12px;
+            padding: 10px;
+            background: white;
+            border-radius: 6px;
+            border-left: 3px solid #E60023;
+        }
+
+        .permission-item code {
+            background: #E60023;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-right: 10px;
+            white-space: nowrap;
+        }
+
+        .footer {
             margin-top: 40px;
             padding-top: 20px;
-            border-top: 1px solid #ddd;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #888;
+            font-size: 14px;
+        }
+
+        .contact-link {
+            color: #E60023;
+            text-decoration: none;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h1>🔒 Privacy Policy</h1>
-        <p><strong>Redbubble Auto Uploader</strong></p>
+        <div class="header">
+            <div class="icon">🔒</div>
+            <h1>Privacy Policy</h1>
+            <div class="subtitle">Pinterest Bulk Extractor</div>
+        </div>
 
-        <div class="highlight">
-            <strong>TL;DR:</strong> We don't collect, store, or transmit any of your personal data. Everything happens
-            locally in your browser.
+        <div class="tldr">
+            <strong>TL;DR:</strong>
+            We don't collect, store, or transmit any of your personal data. Everything happens locally in your browser.
         </div>
 
         <h2>1. Information Collection</h2>
-        <p>Redbubble Auto Uploader <strong>does not collect, store, or transmit</strong> any personal information, user
+        <p>Pinterest Bulk Extractor does <strong>not collect, store, or transmit</strong> any personal information, user
             data, or browsing activity to any external servers.</p>
 
         <h2>2. Data Storage</h2>
-        <p>All data is stored <strong>locally on your device</strong> using Chrome's built-in storage API. This
-            includes:</p>
+        <p>All data is stored locally on your device using Chrome's built-in storage API. This includes:</p>
         <ul>
-            <li>Your language preference</li>
+            <li>Your language preference (English/Spanish)</li>
             <li>Extension configuration settings</li>
             <li>Your encrypted license key (if purchased)</li>
-            <li>Upload progress and automation logs</li>
+            <li>Saved custom extraction guides</li>
         </ul>
         <p><strong>None of this data leaves your computer.</strong></p>
 
         <h2>3. Third-Party Services</h2>
         <p>The extension communicates only with:</p>
         <ul>
-            <li><strong>Redbubble.com:</strong> To automate the upload process on your behalf (requires you to be logged
-                in)</li>
-            <li><strong>Gumroad API:</strong> Only to verify your license key if you purchased the extension</li>
+            <li><strong>Gumroad API:</strong> Only to verify your license key if you purchased the extension. No
+                personal data is sent.</li>
         </ul>
-        <p>We do not track, analyze, or monitor these communications.</p>
+        <p>We do not track, analyze, or monitor any other communications.</p>
 
-        <h2>4. Cookies</h2>
-        <p>The extension uses the "cookies" permission solely to verify that you are logged into your Redbubble account
-            before starting the automation. <strong>We do not read, modify, or share your cookies.</strong></p>
+        <h2>4. Data Extraction</h2>
+        <p>When you use the extension to extract product data from websites:</p>
+        <ul>
+            <li>All extraction happens locally in your browser</li>
+            <li>Extracted data (titles, images, descriptions) is only stored in your browser's memory</li>
+            <li>CSV/Excel exports are downloaded directly to your computer</li>
+            <li>We never upload, transmit, or store your extracted data on any server</li>
+        </ul>
 
         <h2>5. Permissions Explained</h2>
-        <ul>
-            <li><strong>storage:</strong> To save your preferences locally</li>
-            <li><strong>activeTab:</strong> To interact with the Redbubble page when you trigger automation</li>
-            <li><strong>scripting:</strong> To fill in form fields on Redbubble automatically</li>
-            <li><strong>sidePanel:</strong> To provide a convenient sidebar interface</li>
-            <li><strong>cookies:</strong> To verify you're logged into Redbubble</li>
-            <li><strong>clipboardWrite:</strong> To copy AI prompts to your clipboard when you click a button</li>
-        </ul>
+        <div class="permission-list">
+            <div class="permission-item">
+                <code>storage</code>
+                <span>To save your preferences and settings locally on your device</span>
+            </div>
+            <div class="permission-item">
+                <code>activeTab</code>
+                <span>To interact with the current webpage when you trigger the scanner</span>
+            </div>
+            <div class="permission-item">
+                <code>scripting</code>
+                <span>To inject the content detection script that identifies products on webpages</span>
+            </div>
+            <div class="permission-item">
+                <code>tabs</code>
+                <span>To communicate with the content script and get information about the active tab</span>
+            </div>
+            <div class="permission-item">
+                <code>sidePanel</code>
+                <span>To provide a convenient sidebar interface for the extension</span>
+            </div>
+        </div>
 
         <h2>6. Your Data Rights</h2>
         <p>Since we don't collect any data, there's nothing to request, delete, or export. You have full control over
-            all locally stored settings by uninstalling the extension at any time.</p>
+            all locally stored settings by:</p>
+        <ul>
+            <li>Clearing extension data in Chrome settings</li>
+            <li>Uninstalling the extension at any time</li>
+        </ul>
 
         <h2>7. Changes to This Policy</h2>
         <p>If we update this privacy policy, we will notify users through an extension update notice.</p>
 
         <h2>8. Contact</h2>
-        <p>For questions or concerns about this privacy policy, please contact us at: <strong>mramirezmartinez125@gmail.com</strong>
-        </p>
+        <p>For questions or concerns about this privacy policy, please contact us at:</p>
+        <p><a href="mailto:mramirezmartinez125@gmail.com" class="contact-link">mramirezmartinez125@gmail.com</a></p>
 
-        <p class="last-updated">Last Updated: December 17, 2024</p>
+        <div class="footer">
+            <p>Last Updated: January 6, 2025</p>
+            <p>Pinterest Bulk Extractor v1.5.9</p>
+        </div>
     </div>
 </body>
-
 
 </html>
